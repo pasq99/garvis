@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "session_id": "e31f7a10-8a82-43d6-bb7a-332d5d51b822",
+  "created_at": "2026-07-22T11:43:07.951392+00:00",
+  "data": "/mnt/c/Users/pasqu/Desktop/Uni/Magistrale/tesi/codice/garvis-main/data/secondo_test/test",
+  "model": "/mnt/c/Users/pasqu/Desktop/Uni/Magistrale/tesi/codice/garvis-main/best_model/best_model/best_model.zip",
+  "samples": 300,
+  "block_size": 300,
+  "fitness_cycle": [
+    "f1"
+  ],
+  "fitness_direction": "minimize",
+  "decision": "mixed",
+  "mix": {
+    "ppo": 20.0,
+    "worst": 80.0
+  },
+  "seed": 42,
+  "candidate_set_size": 5,
+  "correct_label_field": "correct_controller_choice.option_index",
+  "excluded_fronts_with_fewer_than_5_routes": 53
+}

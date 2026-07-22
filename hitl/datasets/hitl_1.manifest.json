@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "session_id": "c5977885-cbac-477a-9e43-628bbdda7fa0",
+  "created_at": "2026-07-22T12:05:11.195189+00:00",
+  "data": "/mnt/c/Users/pasqu/Desktop/Uni/Magistrale/tesi/codice/garvis-main/data/terzo_test/test",
+  "model": "/mnt/c/Users/pasqu/Desktop/Uni/Magistrale/tesi/codice/garvis-main/fine_tuning/models/ppo_1/model.zip",
+  "samples": 300,
+  "block_size": 300,
+  "fitness_cycle": [
+    "f1"
+  ],
+  "fitness_direction": "minimize",
+  "decision": "mixed",
+  "mix": {
+    "ppo": 20.0,
+    "worst": 80.0
+  },
+  "seed": 42,
+  "candidate_set_size": 5,
+  "correct_label_field": "correct_controller_choice.option_index",
+  "excluded_fronts_with_fewer_than_5_routes": 236
+}
