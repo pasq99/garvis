@@ -1,0 +1,35 @@
+{
+  "data": "/mnt/c/Users/pasqu/Desktop/Uni/Magistrale/tesi/codice/garvis-main/data/sesto_test/test",
+  "baseline_model": "/mnt/c/Users/pasqu/Desktop/Uni/Magistrale/tesi/codice/garvis-main/best_model/best_model/best_model.zip",
+  "fine_tuned_model": "/mnt/c/Users/pasqu/Desktop/Uni/Magistrale/tesi/codice/garvis-main/fine_tuning/models/ppo_3/model.zip",
+  "evaluation_seed": 900,
+  "shuffles": 5,
+  "top1_agreement_with_baseline": 91.5694591728526,
+  "baseline": {
+    "num_files": 1886,
+    "num_physical_groups": 385,
+    "num_evaluations": 9430,
+    "accuracy_strict": 94.22057264050902,
+    "accuracy_operational": 94.22057264050902,
+    "mean_regret": 0.167090985327485,
+    "median_regret": 0.0,
+    "p95_regret": 0.8146781921386719,
+    "max_regret": 19.079808235168457
+  },
+  "fine_tuned": {
+    "num_files": 1886,
+    "num_physical_groups": 385,
+    "num_evaluations": 9430,
+    "accuracy_strict": 92.09968186638389,
+    "accuracy_operational": 92.09968186638389,
+    "mean_regret": 0.29222431010937006,
+    "median_regret": 0.0,
+    "p95_regret": 1.7047615051269531,
+    "max_regret": 15.530228614807129
+  },
+  "delta": {
+    "accuracy_strict_pp": -2.1208907741251295,
+    "accuracy_operational_pp": -2.1208907741251295,
+    "mean_regret": 0.12513332478188505
+  }
+}
